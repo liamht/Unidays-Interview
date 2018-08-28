@@ -1,0 +1,8 @@
+﻿@if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+{
+    @section Scripts {
+        <script>
+            toastr["success"]("@ViewBag.Message");
+        </script>
+    }
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unidays.Interview.Common\Unidays.Interview.Common.csproj" />
+    <ProjectReference Include="..\Unidays.Interview.Data\Unidays.Interview.Data.csproj" />
+    <ProjectReference Include="..\Unidays.Interview.Domain\Unidays.Interview.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
